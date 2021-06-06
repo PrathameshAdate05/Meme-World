@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.memeworld">
+    package="com.prathameshadate.memeworld">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
@@ -13,15 +13,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MemeWorld">
         <activity
-            android:name=".MainActivity3"
+            android:name="com.prathameshadate.memeworld.Memes"
             android:label="@string/title_activity_main3"
             android:theme="@style/Theme.MemeWorld.NoActionBar"
-            android:parentActivityName=".MainActivity2"></activity>
+            android:parentActivityName="com.prathameshadate.memeworld.Home"></activity>
         <activity
-            android:name=".MainActivity2"
+            android:name="com.prathameshadate.memeworld.Home"
             android:label="@string/Home"
             android:theme="@style/Theme.MemeWorld.NoActionBar" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.prathameshadate.memeworld.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

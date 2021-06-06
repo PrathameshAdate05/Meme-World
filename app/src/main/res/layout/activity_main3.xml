@@ -5,7 +5,7 @@
     android:id="@+id/coordinatorLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity3">
+    tools:context=".Memes">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout2"
@@ -74,19 +74,7 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="56dp" />
 
-    <Button
-        android:id="@+id/previous_button"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:alpha="0"
-        android:onClick="prevMeme"
-        android:text="@string/prevbtn"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/verguideline"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/memeimage"
-        app:layout_constraintTop_toTopOf="@+id/horiguideline"
-        app:layout_constraintVertical_bias="1.0" />
+
 
     <com.github.ybq.android.spinkit.SpinKitView
         android:id="@+id/spin_kit"
